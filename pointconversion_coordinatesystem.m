@@ -1,5 +1,7 @@
 system = menu('point conversion_coordinate system','Cartesian to cylindrical','Cylindrical to Cartesian','Cartesian to spherical','Spherical to cartesian');
-[a1,a2,a3] = input('Enter the values of 1st 2nd and 3rd coordinates in a row vector form = ');
+a1 = input('Enter the values of 1st coordinate = ');
+a2 = input('Enter the values of 2nd coordinate = ');
+a3 = input('Enter the values of 3rd coordinate = ');
 switch(system)
     case 1
         if((-inf<a1)<inf&&(-inf<a2)<inf&&(-inf<a3)<inf)
